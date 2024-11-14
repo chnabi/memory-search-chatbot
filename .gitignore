@@ -8,3 +8,6 @@
 __pycache__
 # ignore .DS_Store
 .DS_Store
+
+# ignore .next
+.next
