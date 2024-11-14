@@ -43,7 +43,7 @@ async def lifespan(app: FastAPI):
 app: FastAPI = FastAPI(lifespan=lifespan)
 
 origins = [
-    "http://localhost:3000"
+    "https://chatbot-deliv.vercel.app/"
 ]
 
 app.add_middleware(
