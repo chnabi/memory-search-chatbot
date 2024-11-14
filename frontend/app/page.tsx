@@ -17,7 +17,7 @@ export default function Home() {
     return
   }
   console.log(input)
-  const response = await fetch('http://127.0.0.1:8000/conversation/chat', {
+  const response = await fetch('https://chatbotdeliv.onrender.com/conversation/chat', {
     method: 'POST',  
     headers: {
       'Content-Type': 'application/json',
@@ -35,7 +35,7 @@ export default function Home() {
     setMessages([...messages, { role: 'System', content: 'Must type an input'}]);
     return
   }
-  const response = await fetch('http://127.0.0.1:8000/conversation/memorize', {
+  const response = await fetch('https://chatbotdeliv.onrender.com/conversation/memorize', {
     method: 'POST',  
     headers: {
       'Content-Type': 'application/json',
