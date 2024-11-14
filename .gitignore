@@ -1,0 +1,10 @@
+# ignore .git
+.git 
+# ignore .env
+.env
+# ignore .node_modules 
+.node_modules
+# ignore __pycache__
+__pycache__
+# ignore .DS_Store
+.DS_Store
