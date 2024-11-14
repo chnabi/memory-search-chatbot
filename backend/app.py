@@ -21,7 +21,7 @@ def setup_clients(app: FastAPI): #always call through app.state
     app.state.openai_client = openai_client 
     pc_client: Pinecone = Pinecone(api_key=app.state.environment.PINECONE_KEY)
     app.state.pc_client = pc_client 
-    index = app.state.pc_client.Index(name = "memory-chatbot", host="https://memory-chatbot-4j6ue9i.svc.aped-4627-b74a.pinecone.io")
+    index = app.state.pc_client.Index(name = "memory-chatbot", host="https://chatbot-deliv.vercel.app/")
 
 def setup_globals(app:FastAPI):
     enviornment: Environment = Environment()
