@@ -1,4 +1,4 @@
-Memory Search Chatbot — Personalized RAG System with Pinecone
+## Memory Search Chatbot — Personalized RAG System with Pinecone
 A personal chatbot built using a Retrieval-Augmented Generation (RAG) pipeline that lets users ask questions and get responses grounded in their own past notes and reflections. 
 Key Features:
 Personal Context Retrieval: Stores journal-style entries in a Pinecone vector database for fast semantic search.
